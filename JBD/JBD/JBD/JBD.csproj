@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7B05C066-2D02-4EA2-A3BA-34B9450A415B}</ProjectGuid>
+    <ProjectGuid>{E77BCD49-AB85-46FD-97F0-BDAA8DCA60CB}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>First_Course</RootNamespace>
-    <AssemblyName>First Course</AssemblyName>
+    <RootNamespace>JBD</RootNamespace>
+    <AssemblyName>JBD</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GradeBook.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
