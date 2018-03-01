@@ -10,17 +10,24 @@ namespace JBD.Classes
     class User
     {
 
-        private string ID;
-        private string Name;
+        private string _id;
+        private string _name;
 
-        public User() {
-            ID = null;
-            Name = null;
+        public User(string name)
+        {
+            _id = Utility.MD5.CreateMD5(name);
+            _name = name;
+        }
+        
+        public string Id
+        {
+            get { return _id; }
         }
 
-        public User(string name) {
-            ID = Utility.MD5.CreateMD5(name);
-            Name = name;
+        public string Name
+        {
+            get { return _name; }
+            set { _name = value; }
         }
 
     }
